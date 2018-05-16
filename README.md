@@ -5,4 +5,4 @@ Random bash scripts I've created. Feel free to reach out with any questions @pen
 
 
 CurlooProxy.sh:
-For when you are using a proxy chain and can't get any other scanner to work through that proxy (i.e. dirbuster, gobuster, dirb, etc.). Or when if you just want a quick, command-line, URI brute-forcer.
+For when you are using a proxy and can't get any other brute-force URI scanner to work through that proxy (i.e. dirbuster, gobuster, dirb, etc.); or anytime you want a quick, command-line, URI brute-forcer.
