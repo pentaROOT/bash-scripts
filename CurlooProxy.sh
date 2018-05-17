@@ -1,9 +1,9 @@
 #!/bin/bash
-echo -e "#--------------------------------------------------------------#"
-echo -e "# Name		= CurlooProxy										#"
-echo -e "# Author	= @pentaROOT										#"
-echo -e "# Website	= https://pentaroot.com								#"
-echo -e "#--------------------------------------------------------------#"\\n
+echo -e "#---------------------------------------------------------------#"
+echo -e "# Name         = CurlooProxy                                   #"
+echo -e "# Author       = @pentaROOT                                    #"
+echo -e "# Website      = https://pentaroot.com                         #"
+echo -e "#---------------------------------------------------------------#"\\n
 
 #Set Script Name variable
 
