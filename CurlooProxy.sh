@@ -13,7 +13,7 @@ SCRIPT=`basename ${BASH_SOURCE[0]}`
 
 function HELP {
   echo -e "Basic usage: ./CurloopProxy.sh -u <URL/IP_Address> -w <PATH_TO_WORDLIST>"\\n
-  echo -e "Command line switches are optional. The following switches are recognized."\\n
+  echo -e "The following switches are recognized:"\\n
   echo "-u 	--Sets the value for the URL/IP to use. Required."
   echo "-w 	--Sets the path of the wordlist to use. Required."
   echo "-p 	--Sets the value for the proxy to use. Format: <IP>:<port>"
