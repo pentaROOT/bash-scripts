@@ -12,14 +12,14 @@ SCRIPT=`basename ${BASH_SOURCE[0]}`
 # Help function
 
 function HELP {
-  echo -e "Basic usage: ./CurloopProxy.sh <URL/IP_Address> <PATH_TO_WORDLIST>"\\n
+  echo -e "Basic usage: ./CurloopProxy.sh -u <URL/IP_Address> -w <PATH_TO_WORDLIST>"\\n
   echo -e "Command line switches are optional. The following switches are recognized."\\n
   echo "-u 	--Sets the value for the URL/IP to use. Required."
   echo "-w 	--Sets the path of the wordlist to use. Required."
   echo "-p 	--Sets the value for the proxy to use. Format: <IP>:<port>"
   echo '-e	--Sets options for extensions. Format: "ext,ext,ext"'
   echo -e "-h	--Displays this help message."\\n
-  echo -e 'Example: ./CurloopProxy.sh http://example.com /usr/share/wordlists/common.txt -p 127.0.0.1:8080 -e "txt,php,aspx"'\\n
+  echo -e 'Example: ./CurloopProxy.sh -u http://example.com -w /usr/share/wordlists/common.txt -p 127.0.0.1:8080 -e "txt,php,aspx"'\\n
   exit 1
 }
 
